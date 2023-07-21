@@ -9,6 +9,9 @@ git clone https://github.com/tejozymandias/cypress-new.git
 ## cd into the cloned repo
 cd cypress-new
 
+## install browserstack-cypress-cli globally
+npm i -g browserstack-cypress-cli
+
 ## install the node_modules
 npm install
 
