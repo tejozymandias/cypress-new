@@ -1,0 +1,38 @@
+{
+    "auth": {
+        "username": "tejendra_UwDiBS",
+        "access_key": "7GESUXbTWHxuabxzDphV"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest",
+                "latest-1"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_config_file": "./cypress.config.js",
+        "project_name": "kitchensink",
+        "build_name": "testingStatecode",
+        "exclude": [],
+        "parallels": "3",
+        "npm_dependencies": {
+            "browserstack-cypress-cli":" 1.24.4",
+            "cypress":"12.17.2"
+        },
+        "package_config_options": {},
+        "headless": true,
+        "testObservability":false,
+        "spec_timeout":10
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
