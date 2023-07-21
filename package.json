@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "lint": "eslint --ext=.jsx,.js,.tsx,.ts",
+    "lint:yaml": "yamllint '*.yml' '.buildkite/*.yml' '.circleci/*.yml' '.github/workflows/*.yml' '.semaphore/*.yml' 'basic/**/*.yml' ",
     "bstest1": "browserstack-cypress run --sync --spec ./cypress/e2e/simple-test/simple-test.cy.js",
     "bstest2": "browserstack-cypress run --sync --geolocation US-CA --spec ./cypress/e2e/simple-test/simple-test.cy.js",
     "bslocal": "browserstack-cypress run --sync --spec ./cypress/e2e/getting-started/todo.cy.js"
@@ -29,7 +30,8 @@
   },
   "devDependencies": {
     "cypress": "12.17.1",
-    "eslint": "8.45.0"
+    "eslint": "8.45.0",
+    "yaml-lint": "1.7.0"
   },
   "engines": {
     "node": "^14.0.0 || ^16.0.0 || >=18.0.0"
