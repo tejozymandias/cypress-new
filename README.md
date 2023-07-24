@@ -15,6 +15,8 @@ npm i -g browserstack-cypress-cli
 ## install the node_modules
 npm install
 
+## Add Username and accesskey in the browserstack.json file
+
 ## Run your scripts listed in package.json
 npm run bstest1
 
